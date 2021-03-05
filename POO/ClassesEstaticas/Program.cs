@@ -30,7 +30,7 @@ namespace ClassesEstaticas
 
             Console.WriteLine("Nome: " + p1.nome);
             Console.WriteLine("Idade: " + p1.idade);
-            Console.WriteLine("Maioridade: " + Pessoa.maioridade); 
+            Console.WriteLine("Maioridade: " + Pessoa.maioridade);
             #endregion
 
             Console.ReadKey();

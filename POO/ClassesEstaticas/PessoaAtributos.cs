@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ClassesEstaticas
+﻿namespace ClassesEstaticas
 {
 
     // Uma classe parcial pode ser dividida em várias partes

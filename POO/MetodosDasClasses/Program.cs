@@ -46,7 +46,7 @@ namespace MetodosDasClasses
             bool res2 = m.Comparar("João", "joão");
 
             Console.WriteLine(res1);
-            Console.WriteLine(res2); 
+            Console.WriteLine(res2);
             #endregion
 
             Console.ReadKey();

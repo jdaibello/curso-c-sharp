@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ClassesEstaticas
+﻿namespace ClassesEstaticas
 {
     static class Matematica // Todos os membros de uma classe estática devem ser estáticos 
     {
