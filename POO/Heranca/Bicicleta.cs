@@ -2,7 +2,9 @@
 
 namespace Heranca
 {
-    class Bicicleta : Veiculo // Classe Bicicleta vai herdar da classe Veiculo
+    // Classe Bicicleta vai herdar da classe Veiculo
+    // A palavra reservada sealed faz com que a classe não possa ser herdada
+    sealed class Bicicleta : Veiculo
     {
 
         public override void Acelerar() // O método abstrato está sendo sobrescrito
