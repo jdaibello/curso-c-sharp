@@ -2,19 +2,13 @@
 
 namespace Heranca
 {
-    class Veiculo
+    abstract class Veiculo
     {
         public string Cor { get; set; }
         public string Marca { get; set; }
 
-        public void Acelerar()
-        {
-            Console.WriteLine("Acelerou!");
-        }
+        public abstract void Acelerar(); // Um método abstrato não pode conter implementação, ou seja, não tem comportamento definido
 
-        public void Parar()
-        {
-            Console.WriteLine("Parou!");
-        }
+        public abstract void Parar();
     }
 }

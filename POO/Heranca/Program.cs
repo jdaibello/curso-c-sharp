@@ -8,6 +8,7 @@ namespace Heranca
         {
             Carro c = new Carro();
             Bicicleta b = new Bicicleta();
+            /* Veiculo v = new Veiculo(); // Uma classe abstrata não pode ser instânciada */
 
             Console.WriteLine("Carro");
 
@@ -28,8 +29,8 @@ namespace Heranca
 
             Console.WriteLine("Cor: " + b.Cor + "\nMarca: " + b.Marca);
             b.Pedalar();
-            c.Acelerar();
-            c.Parar();
+            b.Acelerar();
+            b.Parar();
 
             Console.ReadKey();
         }
