@@ -35,7 +35,7 @@
     // pode ter comportamento diferente dependendo da classe
     interface IConta
     {
-        // Por padrão todos os métodos da interfac são públicos
+        // Por padrão todos os métodos da interface são públicos
         string Usuario { get; set; }
         void Depositar();
         void Sacar();
