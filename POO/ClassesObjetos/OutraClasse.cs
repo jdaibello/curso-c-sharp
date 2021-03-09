@@ -1,0 +1,6 @@
+﻿namespace ClassesObjetos
+{
+    class OutraClasse
+    {
+    }
+}
